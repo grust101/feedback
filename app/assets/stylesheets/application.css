@@ -1,3 +1,45 @@
+body {
+    font-family: Helvetica;
+    background-color: #ff4d4d; 
+    background-image: url("sanfran.jpeg");
+
+}
+
+h3 {
+    width: 400px;
+}
+#label {
+    font-size: large;
+}
+.go_to_new {
+    font-size: larger;
+    font-style: italic;
+}
+.btn1 {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: large;
+    border: #ff4d4d;
+    background-color: #ff4d4d;
+}
+.form-group #name{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px; 
+    font-size: medium;
+    border: #ff4d4d;
+}
+
+.form-group #feedback{
+    border-radius: 5px;
+    padding: 10px; 
+    font-size: medium;
+    width: 500px;
+    height: 200px; 
+    border: #ff4d4d;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
